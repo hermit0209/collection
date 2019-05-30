@@ -21,7 +21,7 @@ canvas
     margin: 0
     z-index: 0
 
-svg.cpLOGO
+svg.bsLogo
     +center
     width: 15vmax
     min-width: 100px
@@ -47,7 +47,7 @@ h3,h4
     word-spacing: 2px
     z-index: 11
 h3
-    transform: translateX(calc(-50% - 20vmax)) translateY(-50%)
+    transform: translateX(calc(-50% - 15vmax)) translateY(-50%)
     &::before
         content: ""
         position: absolute
@@ -58,7 +58,7 @@ h3
 h4
     letter-spacing: 3px
     word-spacing: 3px
-    transform: translateX(calc(-50% + 18vmax)) translateY(-50%)
+    transform: translateX(calc(-50% + 14vmax)) translateY(-50%)
     &::after
         content: ""
         position: absolute
@@ -202,9 +202,9 @@ article h5.in-view
 //RWD
 @media screen and (max-width:1000px)
     h3
-        transform: translateX(calc(-50% - 170px)) translateY(-50%)
+        transform: translateX(calc(-50% - 160px)) translateY(-50%)
     h4
-        transform: translateX(calc(-50% + 160px)) translateY(-50%) 
+        transform: translateX(calc(-50% + 140px)) translateY(-50%) 
     h3::before
         display: none
     h4::after
